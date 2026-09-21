@@ -4,6 +4,21 @@
     <active>true</active>
     <label>Sustentação</label>
     <picklistValues>
+        <picklist>Ambiente__c</picklist>
+        <values>
+            <fullName>Desenvolvimento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Homologação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Produção</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Categoria__c</picklist>
         <values>
             <fullName>Atendimento</fullName>
