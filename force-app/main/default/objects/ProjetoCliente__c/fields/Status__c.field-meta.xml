@@ -12,7 +12,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Não Iniciado</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>Não Iniciado</label>
             </value>
             <value>
