@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Projetos_Comerciais__c</fullName>
+    <label>Total em Projetos Comerciais</label>
+    <summarizedField>ProjetoCliente__c.Valor_do_Projeto__c</summarizedField>
+    <summaryForeignKey>ProjetoCliente__c.Conta__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

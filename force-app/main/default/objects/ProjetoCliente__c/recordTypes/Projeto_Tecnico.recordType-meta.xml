@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Consultoria</fullName>
+    <fullName>Projeto_Tecnico</fullName>
     <active>true</active>
-    <label>Consultoria</label>
+    <label>Projeto Técnico</label>
     <picklistValues>
         <picklist>Ambiente__c</picklist>
         <values>
@@ -47,6 +47,10 @@
     </picklistValues>
     <picklistValues>
         <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelado</fullName>
+            <default>false</default>
+        </values>
         <values>
             <fullName>Concluído</fullName>
             <default>false</default>
